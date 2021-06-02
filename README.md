@@ -57,10 +57,13 @@ Once your repository is set up, practice what you learned today to style the sit
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
-- [ ] Add CSS animations (hover, mouseover, etc.)
+- [x] Add CSS animations (hover, mouseover, etc.)
 - [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
-- [ ] Host your website on Netlify.com
+- [x] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
+- [x] Host your website on Netlify.com
+  - [Netlify Site](https://quizzical-swirles-27877b.netlify.app/)
+  - [![Netlify Status](https://api.netlify.com/api/v1/badges/b5f2ba4c-9741-4f29-81fa-67128b5cbeb2/deploy-status)](https://app.netlify.com/sites/quizzical-swirles-27877b/deploys)
+
 
 ## Resources
 
@@ -72,5 +75,5 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
