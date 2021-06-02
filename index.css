@@ -42,7 +42,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 /* General */
@@ -53,12 +53,14 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    color: #4f4f4f;
+    color: #000000;
     font-family: 'Roboto Mono', monospace;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 section {
     padding: 4% 0;
@@ -66,59 +68,112 @@ section {
 a {
     text-decoration: none;
 }
+strong {
+    font-weight: 700;
+}
+nav, .right h2, .right p, .main-text {
+    font-size: 2.3rem;
+    line-height: 1.2;
+}
+p {
+    margin: 0 auto 3%;
+}
+p:last-child {
+    margin-bottom: 0;
+}
 
 /* Header Section */
 nav {
-    padding: 2% 0;
+    padding: 3% 0;
 }
 nav a {
     display: inline-block;
     padding: 1% 0;
-    width: 10%;
-    border-radius: 10px;
+    width: 15%;
+    border-radius: 20px;
     text-align: center;
     color: #fff;
 }
 .orange {
     background: #ff764e;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .blue {
     background: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 11%;
 }
 .yellow {
     background: #FFCD69;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
-/* Top Section */
-.top {
+/* Hero Section */
+.hero {
     position: relative;
 }
 .left img {
     border-radius: 50%;
-    width: 70%;
+    width: 65%;
 }
 .left, .right {
     display: inline-block;
     text-align: center;
 }
 .left {
-    width: 40%;
+    width: 35%;
 }
 .right {
-    width: 45%;
-    margin-left: 3%;
+    width: 65%;
     position: absolute;
-    top: 40%;
+    padding-right: 8%;
+}
+h1 {
+    padding: 3% 0;
+}
+h2 {
+    padding: 2% 0;
+}
+.right p:last-child {
+    max-width: 65%;
 }
 
+/* Main Text Section */
+.main-text  {
+    background: #DDB9A3;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    margin: 0 4%;
+}
+
+/* Additional Info Section */
+.additional-info .fire {
+    margin-bottom: 5%;
+}
+.additional-info img {
+    max-width: 10%;
+    margin: 0 auto 2%;
+    display: block;
+}
+.additional-info p {
+    max-width: 24%;
+    text-align: center;
+}
+
+
+
 /* Background Image Section */
-.heroImg {
-    height: 50vh;
+.footer-img {
+    height: 40vh;
     background: url('assets/footer_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+
+
+/* Footer Section */
+footer {
+    background: #F9E7DC;
 }
